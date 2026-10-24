@@ -1,0 +1,519 @@
+{
+  "products": {
+    "nordvik-sofa": {
+      "slug": "nordvik-sofa",
+      "name": "Nordvik Sofa",
+      "subtitle": "Modular Scandinavian Sofa",
+      "category": "sofa",
+      "categoryLabel": "Sofa",
+      "modelType": "gltf",
+      "modelPath": "/models/kivik/kivik-3seater.glb",
+      "startingPrice": 1899,
+      "dimensions": {
+        "w": 181,
+        "d": 84,
+        "h": 84
+      },
+      "availableExtras": [
+        "lumbar-pillow",
+        "throw-blanket"
+      ],
+      "hasLegs": false,
+      "accentColor": "#5B7C6B",
+      "thumbnail": "/thumbnails/nordvik-3-seater.png",
+      "photo": "/products/nordvik-detail.jpg",
+      "configurable": true,
+      "description": "A modular Scandinavian sofa available as 2-seater, 3-seater or corner L-shape, with a deep, loungeable seat.",
+      "variants": [
+        {
+          "id": "2-seater",
+          "name": "2-Seater",
+          "modelType": "gltf",
+          "modelPath": "/models/kivik/kivik-2seater.glb",
+          "dimensions": {
+            "w": 145,
+            "d": 95,
+            "h": 84
+          },
+          "basePrice": 1499,
+          "thumbnail": "/thumbnails/nordvik-2-seater.png"
+        },
+        {
+          "id": "3-seater",
+          "name": "3-Seater",
+          "modelType": "gltf",
+          "modelPath": "/models/kivik/kivik-3seater.glb",
+          "dimensions": {
+            "w": 181,
+            "d": 84,
+            "h": 84
+          },
+          "basePrice": 1899,
+          "thumbnail": "/thumbnails/nordvik-3-seater.png"
+        },
+        {
+          "id": "corner",
+          "name": "Corner L-Shape",
+          "modelType": "gltf",
+          "modelPath": "/models/kivik/kivik-corner.glb",
+          "dimensions": {
+            "w": 259,
+            "d": 299,
+            "h": 84
+          },
+          "basePrice": 2799,
+          "thumbnail": "/thumbnails/nordvik-corner.png"
+        }
+      ]
+    },
+    "classic-sofa": {
+      "slug": "classic-sofa",
+      "name": "Classic 3-Seater",
+      "subtitle": "Modular Fabric Sofa",
+      "category": "sofa",
+      "categoryLabel": "Sofa",
+      "modelType": "procedural",
+      "startingPrice": 1799,
+      "dimensions": {
+        "w": 228,
+        "d": 95,
+        "h": 83
+      },
+      "availableExtras": [
+        "lumbar-pillow",
+        "throw-blanket",
+        "tray",
+        "storage"
+      ],
+      "hasLegs": true,
+      "accentColor": "#4A6741",
+      "photo": "/products/classic-sofa.jpg",
+      "description": "A modular fabric sofa with clean lines and tapered legs."
+    },
+    "oslo-armchair": {
+      "slug": "oslo-armchair",
+      "name": "Oslo Armchair",
+      "subtitle": "Scandinavian Accent Chair",
+      "category": "armchair",
+      "categoryLabel": "Armchair",
+      "modelType": "procedural",
+      "startingPrice": 849,
+      "dimensions": {
+        "w": 80,
+        "d": 72,
+        "h": 83
+      },
+      "availableExtras": [
+        "lumbar-pillow",
+        "throw-blanket"
+      ],
+      "hasLegs": true,
+      "accentColor": "#2D4B6B",
+      "photo": "/products/oslo-armchair.jpg",
+      "description": "A Scandinavian accent chair with a sculpted upholstered shell and solid oak legs."
+    },
+    "rust-loft-sofa": {
+      "slug": "rust-loft-sofa",
+      "name": "Rust Loft Sofa",
+      "subtitle": "Three-Seat Fabric Sofa",
+      "category": "sofa",
+      "categoryLabel": "Sofa",
+      "modelType": "procedural",
+      "startingPrice": 1599,
+      "dimensions": {
+        "w": 210,
+        "d": 92,
+        "h": 84
+      },
+      "availableExtras": [],
+      "hasLegs": true,
+      "accentColor": "#B25B36",
+      "photo": "/products/rust-sofa.jpg",
+      "description": "A warm rust-toned three-seater with plush cushions and slim wooden legs — a statement piece for any room."
+    },
+    "brando-leather-sofa": {
+      "slug": "brando-leather-sofa",
+      "name": "Brando Leather Sofa",
+      "subtitle": "Full-Grain Leather Sofa",
+      "category": "sofa",
+      "categoryLabel": "Sofa",
+      "modelType": "procedural",
+      "startingPrice": 2299,
+      "dimensions": {
+        "w": 220,
+        "d": 95,
+        "h": 82
+      },
+      "availableExtras": [],
+      "hasLegs": true,
+      "accentColor": "#A6713F",
+      "photo": "/products/brando-leather-sofa.jpg",
+      "description": "Cognac full-grain leather over a hardwood frame, raised on tapered oak legs. Ages beautifully."
+    },
+    "sunny-loveseat": {
+      "slug": "sunny-loveseat",
+      "name": "Sunny Loveseat",
+      "subtitle": "Compact Two-Seater",
+      "category": "sofa",
+      "categoryLabel": "Sofa",
+      "modelType": "procedural",
+      "startingPrice": 1149,
+      "dimensions": {
+        "w": 150,
+        "d": 88,
+        "h": 80
+      },
+      "availableExtras": [],
+      "hasLegs": true,
+      "accentColor": "#E0B23C",
+      "photo": "/products/sunny-loveseat.jpg",
+      "description": "A cheerful mustard two-seater that fits snug spaces without compromising on comfort."
+    },
+    "pod-lounge-chair": {
+      "slug": "pod-lounge-chair",
+      "name": "Pod Lounge Chair",
+      "subtitle": "Molded Accent Chair",
+      "category": "armchair",
+      "categoryLabel": "Armchair",
+      "modelType": "procedural",
+      "startingPrice": 699,
+      "dimensions": {
+        "w": 78,
+        "d": 80,
+        "h": 75
+      },
+      "availableExtras": [],
+      "hasLegs": true,
+      "accentColor": "#D9D4CC",
+      "photo": "/products/pod-lounge-chair.jpg",
+      "description": "A sculptural molded shell on slim legs — a quiet, modern accent for reading corners."
+    },
+    "margaux-accent-chair": {
+      "slug": "margaux-accent-chair",
+      "name": "Margaux Accent Chair",
+      "subtitle": "Tufted Velvet Chair",
+      "category": "armchair",
+      "categoryLabel": "Armchair",
+      "modelType": "procedural",
+      "startingPrice": 599,
+      "dimensions": {
+        "w": 72,
+        "d": 70,
+        "h": 82
+      },
+      "availableExtras": [],
+      "hasLegs": true,
+      "accentColor": "#E7DFD2",
+      "photo": "/products/margaux-chair.jpg",
+      "description": "A petite tufted velvet chair with turned legs — equal parts classic and playful."
+    },
+    "lumi-bed": {
+      "slug": "lumi-bed",
+      "name": "Lumi Upholstered Bed",
+      "subtitle": "King Upholstered Bed",
+      "category": "bed",
+      "categoryLabel": "Bed",
+      "modelType": "procedural",
+      "startingPrice": 1499,
+      "dimensions": {
+        "w": 193,
+        "d": 215,
+        "h": 120
+      },
+      "availableExtras": [],
+      "hasLegs": false,
+      "accentColor": "#C9B79C",
+      "photo": "/products/lumi-bed.jpg",
+      "description": "A softly upholstered headboard and low platform frame for a calm, hotel-grade bedroom."
+    },
+    "birch-console": {
+      "slug": "birch-console",
+      "name": "Birch Console",
+      "subtitle": "Three-Drawer Console",
+      "category": "table",
+      "categoryLabel": "Table",
+      "modelType": "procedural",
+      "startingPrice": 549,
+      "dimensions": {
+        "w": 120,
+        "d": 40,
+        "h": 78
+      },
+      "availableExtras": [],
+      "hasLegs": true,
+      "accentColor": "#B9966A",
+      "photo": "/products/birch-console.jpg",
+      "description": "A slim birch console with three drawers and hairpin legs — perfect for entryways and hallways."
+    },
+    "arc-floor-lamp": {
+      "slug": "arc-floor-lamp",
+      "name": "Arc Floor Lamp",
+      "subtitle": "Adjustable Reading Lamp",
+      "category": "lighting",
+      "categoryLabel": "Lighting",
+      "modelType": "procedural",
+      "startingPrice": 199,
+      "dimensions": {
+        "w": 30,
+        "d": 30,
+        "h": 150
+      },
+      "availableExtras": [],
+      "hasLegs": false,
+      "accentColor": "#4A4A4A",
+      "photo": "/products/arc-floor-lamp.jpg",
+      "description": "A matte-charcoal floor lamp with an adjustable head — directed light for sofas and reading nooks."
+    }
+  },
+  "fabrics": [
+    {
+      "id": "pebble-weave",
+      "name": "Pebble",
+      "fabric": "linen",
+      "color": "Pebble Grey",
+      "hex": "#A6A096",
+      "textureClass": "texture-linen"
+    },
+    {
+      "id": "oatmeal-linen",
+      "name": "Oatmeal",
+      "fabric": "linen",
+      "color": "Oatmeal",
+      "hex": "#C9BBA1",
+      "textureClass": "texture-linen"
+    },
+    {
+      "id": "charcoal-weave",
+      "name": "Charcoal",
+      "fabric": "linen",
+      "color": "Charcoal",
+      "hex": "#44464A",
+      "textureClass": "texture-linen"
+    },
+    {
+      "id": "denim-velvet",
+      "name": "Denim",
+      "fabric": "velvet",
+      "color": "Denim Blue",
+      "hex": "#566A7B",
+      "textureClass": "texture-velvet"
+    },
+    {
+      "id": "moss-velvet",
+      "name": "Moss",
+      "fabric": "velvet",
+      "color": "Moss Green",
+      "hex": "#6B6F50",
+      "textureClass": "texture-velvet"
+    },
+    {
+      "id": "clay-linen",
+      "name": "Clay",
+      "fabric": "linen",
+      "color": "Clay",
+      "hex": "#A9745B",
+      "textureClass": "texture-linen"
+    },
+    {
+      "id": "sand-weave",
+      "name": "Sand",
+      "fabric": "linen",
+      "color": "Sand Beige",
+      "hex": "#B9A584",
+      "textureClass": "texture-linen"
+    },
+    {
+      "id": "taupe-velvet",
+      "name": "Taupe",
+      "fabric": "velvet",
+      "color": "Mushroom Taupe",
+      "hex": "#8B7F72",
+      "textureClass": "texture-velvet"
+    },
+    {
+      "id": "dove-velvet",
+      "name": "Dove",
+      "fabric": "velvet",
+      "color": "Dove Grey",
+      "hex": "#979A9E",
+      "textureClass": "texture-velvet"
+    },
+    {
+      "id": "petrol-velvet",
+      "name": "Petrol",
+      "fabric": "velvet",
+      "color": "Petrol Teal",
+      "hex": "#3C5559",
+      "textureClass": "texture-velvet"
+    },
+    {
+      "id": "cognac-leather",
+      "name": "Cognac",
+      "fabric": "leather",
+      "color": "Cognac Leather",
+      "hex": "#8A5634",
+      "textureClass": "texture-leather"
+    },
+    {
+      "id": "ivory-boucle",
+      "name": "Ivory",
+      "fabric": "bouclé",
+      "color": "Ivory Bouclé",
+      "hex": "#E7DFD1",
+      "textureClass": "texture-boucle"
+    }
+  ],
+  "legs": [
+    {
+      "id": "tapered-walnut",
+      "name": "Walnut Tapered",
+      "type": "tapered",
+      "material": "walnut"
+    },
+    {
+      "id": "hairpin-black",
+      "name": "Matte Black Hairpin",
+      "type": "hairpin",
+      "material": "matte-black"
+    },
+    {
+      "id": "bun-oak",
+      "name": "Oak Bun",
+      "type": "bun",
+      "material": "oak"
+    },
+    {
+      "id": "block-brass",
+      "name": "Brass Block",
+      "type": "block",
+      "material": "brass"
+    }
+  ],
+  "extras": [
+    {
+      "id": "ottoman",
+      "name": "Ottoman",
+      "description": "Matching tufted pouf, same fabric & frame",
+      "price": 449
+    },
+    {
+      "id": "lumbar-pillow",
+      "name": "Lumbar Pillow",
+      "description": "Matching fabric lumbar cushion",
+      "price": 89
+    },
+    {
+      "id": "throw-blanket",
+      "name": "Throw Blanket",
+      "description": "Cashmere throw, complementary tone",
+      "price": 145
+    },
+    {
+      "id": "tray",
+      "name": "Oak Tray",
+      "description": "Solid oak arm tray, brass inlay",
+      "price": 75
+    },
+    {
+      "id": "storage",
+      "name": "Storage Drawer",
+      "description": "Hidden under-seat storage drawer",
+      "price": 199
+    }
+  ],
+  "modules": [
+    {
+      "id": "sofa-2",
+      "name": "2-Seater Sofa",
+      "basePrice": 1299,
+      "dimensions": {
+        "w": 150,
+        "d": 92,
+        "h": 83
+      },
+      "furnitureType": "sofa",
+      "dimension": "small"
+    },
+    {
+      "id": "sofa-3",
+      "name": "3-Seater Sofa",
+      "basePrice": 1799,
+      "dimensions": {
+        "w": 228,
+        "d": 95,
+        "h": 83
+      },
+      "furnitureType": "sofa",
+      "dimension": "medium"
+    },
+    {
+      "id": "chaise",
+      "name": "Chaise Lounge",
+      "basePrice": 1599,
+      "dimensions": {
+        "w": 245,
+        "d": 155,
+        "h": 83
+      },
+      "furnitureType": "sofa",
+      "dimension": "medium"
+    },
+    {
+      "id": "corner-l",
+      "name": "Corner Left",
+      "basePrice": 2499,
+      "dimensions": {
+        "w": 285,
+        "d": 165,
+        "h": 83
+      },
+      "furnitureType": "sectional",
+      "dimension": "large"
+    },
+    {
+      "id": "corner-r",
+      "name": "Corner Right",
+      "basePrice": 2499,
+      "dimensions": {
+        "w": 285,
+        "d": 165,
+        "h": 83
+      },
+      "furnitureType": "sectional",
+      "dimension": "large"
+    },
+    {
+      "id": "ottoman",
+      "name": "Ottoman",
+      "basePrice": 549,
+      "dimensions": {
+        "w": 80,
+        "d": 80,
+        "h": 45
+      },
+      "furnitureType": "armchair",
+      "dimension": "small"
+    },
+    {
+      "id": "sofa-bed",
+      "name": "Sofa Bed",
+      "basePrice": 2099,
+      "dimensions": {
+        "w": 215,
+        "d": 102,
+        "h": 83
+      },
+      "furnitureType": "sofa",
+      "dimension": "medium"
+    }
+  ],
+  "categoryLabels": {
+    "sectional": "Sectional Sofas",
+    "sofa": "Sofas",
+    "armchair": "Armchairs",
+    "ottoman": "Ottomans",
+    "bed": "Beds",
+    "table": "Tables",
+    "lighting": "Lighting"
+  }
+}

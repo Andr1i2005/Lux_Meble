@@ -1,0 +1,287 @@
+{
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "about": "About"
+  },
+  "common": {
+    "signIn": "Sign in",
+    "account": "Account",
+    "ordersTracking": "Orders & tracking",
+    "cart": "Cart",
+    "viewAll": "View all →",
+    "from": "From",
+    "continueShopping": "Continue shopping",
+    "browseFurniture": "Browse furniture"
+  },
+  "switcher": { "label": "Language", "language": "Language", "currency": "Currency" },
+  "home": {
+    "badge": "Configurator",
+    "liveBadge": "Live 3D",
+    "livePreview": "Live 3D preview",
+    "featured": "Featured",
+    "hero": {
+      "line1": "Furniture made",
+      "emphasis": "exactly",
+      "line2": "to your taste.",
+      "subtitle": "Choose a piece, tailor the fabric, finish and size, and watch it come alive in real-time 3D — then make it yours.",
+      "ctaShop": "Shop the collection",
+      "ctaTry": "Try the configurator",
+      "rating": "loved by 12,000+ homes"
+    },
+    "values": {
+      "realtime": { "title": "Real-time 3D", "desc": "Configure fabric, frame and size and watch it update live." },
+      "materials": { "title": "Premium materials", "desc": "Velvet, linen, bouclé and full-grain leather, made to last." },
+      "delivery": { "title": "Free white-glove delivery", "desc": "Complimentary delivery and assembly across the EU." }
+    },
+    "featuredSection": { "title": "Featured pieces", "subtitle": "Hand-picked designs, ready to configure." },
+    "newArrivals": { "title": "New arrivals", "subtitle": "Fresh additions across every room." },
+    "ctaBand": { "title": "Design it your way.", "subtitle": "Start from any model and personalise every detail in real time.", "button": "Start configuring" }
+  },
+  "footer": {
+    "tagline": "Made-to-order furniture from our Kraków atelier. Configure it in 3D, we build it by hand.",
+    "carbonNeutral": "Carbon-neutral delivery",
+    "rights": "© 2026 LuxMeble. All rights reserved.",
+    "madeIn": "Made in Poland",
+    "columns": {
+      "shop": { "title": "Shop", "allFurniture": "All furniture", "configurator": "Configurator", "newArrivals": "New arrivals" },
+      "company": { "title": "Company", "about": "About us", "craft": "Our craft", "sustainability": "Sustainability" },
+      "support": { "title": "Support", "orders": "Orders & tracking", "delivery": "Delivery & returns", "contact": "Contact" }
+    }
+  },
+  "auth": {
+    "google": "Continue with Google",
+    "pleaseWait": "Please wait…",
+    "disclaimer": "We only use your account to save and track your orders.",
+    "wall": {
+      "checkout": { "title": "Sign in to complete your order", "subtitle": "Create a free account so we can save your order and let you track it across devices." },
+      "orders": { "title": "Sign in to view your orders", "subtitle": "Your orders are saved to your account so you can track them across devices." },
+      "tracking": { "title": "Sign in to track this order", "subtitle": "Orders are private to your account. Sign in to view its tracking." }
+    },
+    "benefits": {
+      "track": "Track every order in realtime, on any device",
+      "reorder": "Reorder your saved configurations in one tap",
+      "private": "Your details stay private to your account"
+    },
+    "errors": {
+      "cancelled": "Sign-in was cancelled.",
+      "popupBlocked": "Your browser blocked the sign-in popup.",
+      "tooMany": "Too many attempts — try again later.",
+      "network": "Network error — check your connection.",
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "categories": {
+    "sofa": "Sofas",
+    "armchair": "Armchairs",
+    "sectional": "Sectional Sofas",
+    "ottoman": "Ottomans",
+    "bed": "Beds",
+    "table": "Tables",
+    "lighting": "Lighting"
+  },
+  "catalog": {
+    "eyebrow": "Collection",
+    "title": "Shop all furniture",
+    "subtitle": "Every piece is made to order and configurable in real-time 3D.",
+    "all": "All",
+    "count": "{count, plural, one {# piece} other {# pieces}}",
+    "empty": "No pieces in this category yet.",
+    "sort": {
+      "featured": "Featured",
+      "priceAsc": "Price: low to high",
+      "priceDesc": "Price: high to low"
+    }
+  },
+  "product": {
+    "breadcrumb": "Shop",
+    "configurable": "3D Configurable",
+    "from": "From",
+    "width": "Width",
+    "depth": "Depth",
+    "height": "Height",
+    "configure": "Configure in 3D →",
+    "addBase": "Add base to cart",
+    "addToCart": "Add to cart",
+    "back": "← Back to shop",
+    "related": "You may also like"
+  },
+  "payment": {
+    "cardNumber": "Card number",
+    "expiry": "Expiry",
+    "cvc": "CVC",
+    "demoNote": "Demo checkout — no real payment is processed.",
+    "prevYear": "Previous year",
+    "nextYear": "Next year"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "contact": "Contact",
+    "shippingAddress": "Shipping address",
+    "payment": "Payment",
+    "email": "Email",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "address": "Address",
+    "city": "City",
+    "postal": "Postal code",
+    "country": "Country",
+    "summary": "Order summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "free": "Free",
+    "total": "Total",
+    "placeOrder": "Place order",
+    "placing": "Placing order…",
+    "continueShopping": "Continue shopping",
+    "emptyTitle": "Your cart is empty",
+    "emptyText": "Add a configured piece before checking out.",
+    "browseFurniture": "Browse furniture",
+    "confirmedTitle": "Order confirmed",
+    "confirmedText": "Thank you! Your order <b>{id}</b> has been placed. A confirmation has been sent to your email.",
+    "trackOrder": "Track your order →",
+    "errorDenied": "We couldn’t save your order — database permissions are blocking it. Check the Realtime Database rules.",
+    "errorGeneric": "Something went wrong placing your order. Please try again."
+  },
+  "cart": {
+    "title": "Cart",
+    "emptyTitle": "Your cart is empty",
+    "emptyHint": "Configure a piece to add it here.",
+    "browseFurniture": "Browse furniture",
+    "subtotal": "Subtotal",
+    "shippingNote": "Shipping & taxes calculated at checkout.",
+    "checkout": "Checkout",
+    "continueShopping": "Continue shopping",
+    "decrease": "Decrease quantity",
+    "increase": "Increase quantity",
+    "remove": "Remove item",
+    "close": "Close cart"
+  },
+  "orders": {
+    "eyebrow": "Your orders",
+    "title": "Orders & tracking",
+    "subtitle": "Follow every order from our atelier to your door.",
+    "trackPlaceholder": "Enter order number, e.g. LM-XXXXXX",
+    "track": "Track",
+    "loading": "Loading…",
+    "emptyTitle": "No orders yet",
+    "emptyText": "Configure a piece and place your first order.",
+    "browseFurniture": "Browse furniture",
+    "delivered": "Delivered",
+    "deliveredOn": "Delivered {date}",
+    "arriving": "Arriving {date}"
+  },
+  "tracking": {
+    "loadingOrder": "Loading order…",
+    "notFoundTitle": "Order not found",
+    "notFoundText": "We couldn’t find an order matching <b>{id}</b>.",
+    "viewAll": "View all orders",
+    "breadcrumb": "Orders",
+    "order": "Order",
+    "placed": "Placed {date}",
+    "delivered": "Delivered",
+    "onTheWay": "On the way",
+    "deliveredOn": "Delivered on {date}",
+    "estDelivery": "Estimated delivery {date}",
+    "est": "Est. {date}",
+    "shipment": "Shipment",
+    "copy": "Copy",
+    "copied": "Copied",
+    "history": "Tracking history",
+    "items": "Items",
+    "total": "Total",
+    "deliveryAddress": "Delivery address",
+    "fulfilment": "Fulfilment",
+    "fulfilmentNote": "advance the shipment stage. The status is saved to the order and updates in realtime.",
+    "advance": "Advance shipment →",
+    "reset": "Reset",
+    "milestones": {
+      "confirmed": "Confirmed",
+      "production": "In production",
+      "shipped": "Shipped",
+      "out": "Out for delivery",
+      "delivered": "Delivered"
+    }
+  },
+  "stages": {
+    "placed": { "label": "Order placed", "description": "We’ve received your order.", "location": "luxmeble.com" },
+    "confirmed": { "label": "Order confirmed", "description": "Payment authorised, order confirmed.", "location": "Kraków, PL" },
+    "production": { "label": "In production", "description": "Your piece is being made to order.", "location": "Kraków atelier, PL" },
+    "quality": { "label": "Quality check", "description": "Final inspection and protective packing.", "location": "Kraków atelier, PL" },
+    "shipped": { "label": "Shipped", "description": "Handed over to the carrier.", "location": "Warsaw hub, PL" },
+    "transit": { "label": "In transit", "description": "On its way to your regional depot.", "location": "Wrocław · Berlin" },
+    "out": { "label": "Out for delivery", "description": "With the courier — arriving today.", "location": "Local depot" },
+    "delivered": { "label": "Delivered", "description": "Delivered to your address.", "location": "Your address" }
+  },
+  "configurator": {
+    "configuration": "Configuration",
+    "frameBase": "Frame / Base",
+    "custom": "Custom",
+    "cover": "Cover",
+    "legs": "Legs",
+    "dimensions": "Dimensions",
+    "showDimensions": "Show dimensions",
+    "hideDimensions": "Hide dimensions",
+    "yourConfiguration": "Your configuration",
+    "vatNote": "VAT included · ships in 4–6 weeks",
+    "total": "Total",
+    "addToCart": "Add to cart",
+    "customise": "Customise",
+    "add": "Add",
+    "backToCatalog": "Back to catalog",
+    "saveToFavourites": "Save to favourites",
+    "close": "Close",
+    "trust": { "delivery": "Free delivery", "returns": "14-day returns", "warranty": "2-yr warranty" },
+    "frameColors": {
+      "anthracite": "Anthracite",
+      "graphite": "Graphite",
+      "darkWalnut": "Dark Walnut",
+      "cognac": "Cognac",
+      "taupe": "Taupe",
+      "ivory": "Ivory"
+    }
+  },
+  "about": {
+    "eyebrow": "Our story",
+    "heroTitle": "Furniture made to order,",
+    "heroEmphasis": "never to waste.",
+    "heroText": "LuxMeble began in a small Kraków workshop with a simple idea: let people design exactly the piece they want, then build it by hand — only once it’s theirs.",
+    "exploreCollection": "Explore the collection",
+    "tryConfigurator": "Try the configurator",
+    "stats": {
+      "founded": "Founded in Kraków",
+      "homes": "Homes furnished",
+      "rating": "Average rating",
+      "countries": "EU countries served"
+    },
+    "storyEyebrow": "Why we build this way",
+    "storyTitle": "Less waste. Better made.",
+    "storyP1": "Mass-produced furniture fills warehouses, then landfills. We flipped the model: you configure a piece in real-time 3D, and only then do our makers begin. The result is furniture that fits your room and your taste exactly — with far less waste along the way.",
+    "storyP2": "Every order is traceable from our bench to your door, and most parts can be re-ordered years later. That’s what made-to-order should mean.",
+    "valuesTitle": "What we stand for",
+    "values": {
+      "madeToOrder": { "title": "Made to order", "desc": "Nothing sits in a warehouse. Every piece is built only after you configure it — your fabric, your finish, your size." },
+      "honestMaterials": { "title": "Honest materials", "desc": "Kiln-dried hardwood frames, full-grain leather and European-milled fabrics. We tell you exactly what’s inside." },
+      "builtToLast": { "title": "Built to last", "desc": "A 10-year frame warranty and parts you can re-order years later. Furniture should outlive trends." }
+    },
+    "timelineEyebrow": "The journey",
+    "timelineTitle": "From a workshop to 12,000 homes",
+    "timeline": {
+      "y2019": { "title": "A workshop in Kraków", "desc": "Two cabinetmakers start building sofas to order from a small atelier." },
+      "y2021": { "title": "The configurator", "desc": "We launch real-time 3D configuration — design your piece before it’s made." },
+      "y2023": { "title": "Across the EU", "desc": "White-glove delivery and assembly expands to eight countries." },
+      "y2026": { "title": "12,000 homes", "desc": "Still made to order, one piece at a time — now in thousands of homes." }
+    },
+    "teamEyebrow": "The people",
+    "teamTitle": "Makers, not marketers",
+    "team": {
+      "founder": "Founder & Design",
+      "craft": "Head of Craft",
+      "materials": "Materials Lead",
+      "care": "Customer Care"
+    },
+    "ctaTitle": "Make something that’s yours.",
+    "ctaText": "Start from any model and personalise every detail in real time.",
+    "ctaButton": "Start configuring"
+  }
+}

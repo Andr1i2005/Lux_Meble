@@ -1,0 +1,358 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.0.5",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression",
+        "KHR_texture_transform"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression",
+        "KHR_texture_transform"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "legs",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.024738606065511703,
+                0.024738606065511703,
+                0.024738606065511703
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "grey material",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.024738606065511703,
+                0.024738606065511703,
+                0.024738606065511703
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "fabric",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.024738606065511703,
+                0.024738606065511703,
+                0.024738606065511703
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "black metal",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "grey material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.21194787323474884,
+                    0.21194787323474884,
+                    0.21194787323474884,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 1
+            }
+        },
+        {
+            "name" : "kel_grey_turquoise",
+            "normalTexture" : {
+                "index" : 0,
+                "scale" : 1.5,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "extensions" : {
+                        "KHR_texture_transform" : {
+                            "offset" : [
+                                -2.999999999999997,
+                                1.00000013113417
+                            ],
+                            "rotation" : 1.5707963705062866,
+                            "scale" : [
+                                3,
+                                3
+                            ]
+                        }
+                    },
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "roughnessFactor" : 1
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "80539930_KIVIK001.17086",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "80539930_KIVIK001.408",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 1,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "80539930_KIVIK001.041",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 2,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 11,
+                    "material" : 2,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "1-seat-kivik-normals-closed",
+            "uri" : "1-seat-kivik-normals-closed.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "1-seat-kivik-ao",
+            "uri" : "1-seat-kivik-ao.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "kel_grey_turquoise",
+            "uri" : "kel_grey_turquoise.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 2030,
+            "max" : [
+                13.900834083557129,
+                15.238472938537598,
+                16.25705909729004
+            ],
+            "min" : [
+                -15.317865371704102,
+                -17.07782745361328,
+                14.682059288024902
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 2030,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 2030,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 8262,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 16,
+            "max" : [
+                16.469989776611328,
+                16.452787399291992,
+                9.333358764648438
+            ],
+            "min" : [
+                -17.36255645751953,
+                -11.748794555664062,
+                7.562358856201172
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 16,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 16,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 54,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 9949,
+            "max" : [
+                17.784385681152344,
+                19.36930274963379,
+                14.933755874633789
+            ],
+            "min" : [
+                -18.7157039642334,
+                -19.444082260131836,
+                -17.16573143005371
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 9949,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 9949,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 52575,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 11396,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 408,
+            "byteOffset" : 11396
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 57852,
+            "byteOffset" : 11804
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 69656,
+            "uri" : "KIVIK_SOFABED.bin"
+        }
+    ]
+}

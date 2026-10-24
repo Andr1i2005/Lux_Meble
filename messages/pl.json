@@ -1,0 +1,287 @@
+{
+  "nav": {
+    "home": "Start",
+    "shop": "Sklep",
+    "about": "O nas"
+  },
+  "common": {
+    "signIn": "Zaloguj się",
+    "account": "Konto",
+    "ordersTracking": "Zamówienia i śledzenie",
+    "cart": "Koszyk",
+    "viewAll": "Zobacz wszystko →",
+    "from": "Od",
+    "continueShopping": "Kontynuuj zakupy",
+    "browseFurniture": "Przeglądaj meble"
+  },
+  "switcher": { "label": "Język", "language": "Język", "currency": "Waluta" },
+  "home": {
+    "badge": "Konfigurator",
+    "liveBadge": "Live 3D",
+    "livePreview": "Podgląd 3D na żywo",
+    "featured": "Wyróżnione",
+    "hero": {
+      "line1": "Meble stworzone",
+      "emphasis": "dokładnie",
+      "line2": "według Twojego gustu.",
+      "subtitle": "Wybierz mebel, dopasuj tkaninę, wykończenie i rozmiar, i obserwuj go na żywo w 3D — a potem uczyń go swoim.",
+      "ctaShop": "Zobacz kolekcję",
+      "ctaTry": "Wypróbuj konfigurator",
+      "rating": "pokochało ponad 12 000 domów"
+    },
+    "values": {
+      "realtime": { "title": "3D w czasie rzeczywistym", "desc": "Konfiguruj tkaninę, ramę i rozmiar i patrz, jak zmienia się na żywo." },
+      "materials": { "title": "Materiały premium", "desc": "Aksamit, len, bouclé i skóra pełnoziarnista — na lata." },
+      "delivery": { "title": "Darmowa dostawa z montażem", "desc": "Bezpłatna dostawa i montaż na terenie całej UE." }
+    },
+    "featuredSection": { "title": "Wyróżnione modele", "subtitle": "Starannie wybrane projekty, gotowe do konfiguracji." },
+    "newArrivals": { "title": "Nowości", "subtitle": "Świeże propozycje do każdego wnętrza." },
+    "ctaBand": { "title": "Zaprojektuj po swojemu.", "subtitle": "Zacznij od dowolnego modelu i dopasuj każdy detal w czasie rzeczywistym.", "button": "Zacznij konfigurować" }
+  },
+  "footer": {
+    "tagline": "Meble na zamówienie z naszej pracowni w Krakowie. Skonfiguruj w 3D, my zbudujemy ręcznie.",
+    "carbonNeutral": "Dostawa neutralna dla klimatu",
+    "rights": "© 2026 LuxMeble. Wszelkie prawa zastrzeżone.",
+    "madeIn": "Wyprodukowano w Polsce",
+    "columns": {
+      "shop": { "title": "Sklep", "allFurniture": "Wszystkie meble", "configurator": "Konfigurator", "newArrivals": "Nowości" },
+      "company": { "title": "Firma", "about": "O nas", "craft": "Nasze rzemiosło", "sustainability": "Zrównoważony rozwój" },
+      "support": { "title": "Pomoc", "orders": "Zamówienia i śledzenie", "delivery": "Dostawa i zwroty", "contact": "Kontakt" }
+    }
+  },
+  "auth": {
+    "google": "Kontynuuj z Google",
+    "pleaseWait": "Chwileczkę…",
+    "disclaimer": "Używamy Twojego konta wyłącznie do zapisywania i śledzenia zamówień.",
+    "wall": {
+      "checkout": { "title": "Zaloguj się, aby dokończyć zamówienie", "subtitle": "Załóż darmowe konto, abyśmy mogli zapisać Twoje zamówienie i umożliwić śledzenie na każdym urządzeniu." },
+      "orders": { "title": "Zaloguj się, aby zobaczyć zamówienia", "subtitle": "Twoje zamówienia są zapisane na koncie, więc możesz śledzić je na każdym urządzeniu." },
+      "tracking": { "title": "Zaloguj się, aby śledzić to zamówienie", "subtitle": "Zamówienia są prywatne dla Twojego konta. Zaloguj się, aby zobaczyć śledzenie." }
+    },
+    "benefits": {
+      "track": "Śledź każde zamówienie na żywo, na dowolnym urządzeniu",
+      "reorder": "Zamów ponownie zapisane konfiguracje jednym dotknięciem",
+      "private": "Twoje dane pozostają prywatne dla Twojego konta"
+    },
+    "errors": {
+      "cancelled": "Logowanie zostało anulowane.",
+      "popupBlocked": "Przeglądarka zablokowała okno logowania.",
+      "tooMany": "Zbyt wiele prób — spróbuj ponownie później.",
+      "network": "Błąd sieci — sprawdź połączenie.",
+      "generic": "Coś poszło nie tak. Spróbuj ponownie."
+    }
+  },
+  "categories": {
+    "sofa": "Sofy",
+    "armchair": "Fotele",
+    "sectional": "Sofy narożne",
+    "ottoman": "Pufy",
+    "bed": "Łóżka",
+    "table": "Stoły",
+    "lighting": "Oświetlenie"
+  },
+  "catalog": {
+    "eyebrow": "Kolekcja",
+    "title": "Wszystkie meble",
+    "subtitle": "Każdy mebel jest wykonywany na zamówienie i konfigurowalny w 3D na żywo.",
+    "all": "Wszystkie",
+    "count": "{count, plural, one {# mebel} few {# meble} many {# mebli} other {# mebli}}",
+    "empty": "Brak mebli w tej kategorii.",
+    "sort": {
+      "featured": "Wyróżnione",
+      "priceAsc": "Cena: od najniższej",
+      "priceDesc": "Cena: od najwyższej"
+    }
+  },
+  "product": {
+    "breadcrumb": "Sklep",
+    "configurable": "Konfigurowalny 3D",
+    "from": "Od",
+    "width": "Szerokość",
+    "depth": "Głębokość",
+    "height": "Wysokość",
+    "configure": "Konfiguruj w 3D →",
+    "addBase": "Dodaj wersję bazową",
+    "addToCart": "Dodaj do koszyka",
+    "back": "← Wróć do sklepu",
+    "related": "Może Ci się spodobać"
+  },
+  "payment": {
+    "cardNumber": "Numer karty",
+    "expiry": "Ważność",
+    "cvc": "CVC",
+    "demoNote": "Checkout demonstracyjny — żadna płatność nie jest realizowana.",
+    "prevYear": "Poprzedni rok",
+    "nextYear": "Następny rok"
+  },
+  "checkout": {
+    "title": "Zamówienie",
+    "contact": "Kontakt",
+    "shippingAddress": "Adres dostawy",
+    "payment": "Płatność",
+    "email": "E-mail",
+    "firstName": "Imię",
+    "lastName": "Nazwisko",
+    "address": "Adres",
+    "city": "Miasto",
+    "postal": "Kod pocztowy",
+    "country": "Kraj",
+    "summary": "Podsumowanie zamówienia",
+    "subtotal": "Suma częściowa",
+    "shipping": "Dostawa",
+    "free": "Gratis",
+    "total": "Razem",
+    "placeOrder": "Złóż zamówienie",
+    "placing": "Składanie zamówienia…",
+    "continueShopping": "Kontynuuj zakupy",
+    "emptyTitle": "Twój koszyk jest pusty",
+    "emptyText": "Dodaj skonfigurowany mebel przed złożeniem zamówienia.",
+    "browseFurniture": "Przeglądaj meble",
+    "confirmedTitle": "Zamówienie potwierdzone",
+    "confirmedText": "Dziękujemy! Twoje zamówienie <b>{id}</b> zostało złożone. Potwierdzenie wysłaliśmy na Twój e-mail.",
+    "trackOrder": "Śledź zamówienie →",
+    "errorDenied": "Nie udało się zapisać zamówienia — blokują je uprawnienia bazy danych. Sprawdź reguły Realtime Database.",
+    "errorGeneric": "Coś poszło nie tak podczas składania zamówienia. Spróbuj ponownie."
+  },
+  "cart": {
+    "title": "Koszyk",
+    "emptyTitle": "Twój koszyk jest pusty",
+    "emptyHint": "Skonfiguruj mebel, aby go tu dodać.",
+    "browseFurniture": "Przeglądaj meble",
+    "subtotal": "Suma częściowa",
+    "shippingNote": "Dostawa i podatki obliczane przy finalizacji.",
+    "checkout": "Do kasy",
+    "continueShopping": "Kontynuuj zakupy",
+    "decrease": "Zmniejsz ilość",
+    "increase": "Zwiększ ilość",
+    "remove": "Usuń pozycję",
+    "close": "Zamknij koszyk"
+  },
+  "orders": {
+    "eyebrow": "Twoje zamówienia",
+    "title": "Zamówienia i śledzenie",
+    "subtitle": "Śledź każde zamówienie od naszej pracowni po Twoje drzwi.",
+    "trackPlaceholder": "Wpisz numer zamówienia, np. LM-XXXXXX",
+    "track": "Śledź",
+    "loading": "Ładowanie…",
+    "emptyTitle": "Brak zamówień",
+    "emptyText": "Skonfiguruj mebel i złóż pierwsze zamówienie.",
+    "browseFurniture": "Przeglądaj meble",
+    "delivered": "Dostarczono",
+    "deliveredOn": "Dostarczono {date}",
+    "arriving": "Dostawa {date}"
+  },
+  "tracking": {
+    "loadingOrder": "Ładowanie zamówienia…",
+    "notFoundTitle": "Nie znaleziono zamówienia",
+    "notFoundText": "Nie znaleźliśmy zamówienia o numerze <b>{id}</b>.",
+    "viewAll": "Zobacz wszystkie zamówienia",
+    "breadcrumb": "Zamówienia",
+    "order": "Zamówienie",
+    "placed": "Złożono {date}",
+    "delivered": "Dostarczono",
+    "onTheWay": "W drodze",
+    "deliveredOn": "Dostarczono {date}",
+    "estDelivery": "Szacowana dostawa {date}",
+    "est": "Szac. {date}",
+    "shipment": "Przesyłka",
+    "copy": "Kopiuj",
+    "copied": "Skopiowano",
+    "history": "Historia śledzenia",
+    "items": "Pozycje",
+    "total": "Razem",
+    "deliveryAddress": "Adres dostawy",
+    "fulfilment": "Realizacja",
+    "fulfilmentNote": "przesuń etap przesyłki. Status jest zapisywany w zamówieniu i aktualizuje się na żywo.",
+    "advance": "Dalej →",
+    "reset": "Reset",
+    "milestones": {
+      "confirmed": "Potwierdzono",
+      "production": "W produkcji",
+      "shipped": "Wysłano",
+      "out": "W doręczeniu",
+      "delivered": "Dostarczono"
+    }
+  },
+  "stages": {
+    "placed": { "label": "Zamówienie złożone", "description": "Otrzymaliśmy Twoje zamówienie.", "location": "luxmeble.com" },
+    "confirmed": { "label": "Zamówienie potwierdzone", "description": "Płatność autoryzowana, zamówienie potwierdzone.", "location": "Kraków, PL" },
+    "production": { "label": "W produkcji", "description": "Twój mebel jest wykonywany na zamówienie.", "location": "Pracownia Kraków, PL" },
+    "quality": { "label": "Kontrola jakości", "description": "Ostateczna kontrola i pakowanie ochronne.", "location": "Pracownia Kraków, PL" },
+    "shipped": { "label": "Wysłano", "description": "Przekazano przewoźnikowi.", "location": "Hub Warszawa, PL" },
+    "transit": { "label": "W transporcie", "description": "W drodze do Twojego regionalnego magazynu.", "location": "Wrocław · Berlin" },
+    "out": { "label": "W doręczeniu", "description": "U kuriera — dostawa dzisiaj.", "location": "Lokalny magazyn" },
+    "delivered": { "label": "Dostarczono", "description": "Dostarczono pod Twój adres.", "location": "Twój adres" }
+  },
+  "configurator": {
+    "configuration": "Konfiguracja",
+    "frameBase": "Rama / Baza",
+    "custom": "Własny",
+    "cover": "Obicie",
+    "legs": "Nóżki",
+    "dimensions": "Wymiary",
+    "showDimensions": "Pokaż wymiary",
+    "hideDimensions": "Ukryj wymiary",
+    "yourConfiguration": "Twoja konfiguracja",
+    "vatNote": "Z VAT · wysyłka w 4–6 tygodni",
+    "total": "Razem",
+    "addToCart": "Dodaj do koszyka",
+    "customise": "Dostosuj",
+    "add": "Dodaj",
+    "backToCatalog": "Wróć do katalogu",
+    "saveToFavourites": "Zapisz do ulubionych",
+    "close": "Zamknij",
+    "trust": { "delivery": "Darmowa dostawa", "returns": "14 dni na zwrot", "warranty": "2 lata gwarancji" },
+    "frameColors": {
+      "anthracite": "Antracyt",
+      "graphite": "Grafit",
+      "darkWalnut": "Ciemny orzech",
+      "cognac": "Koniak",
+      "taupe": "Taupe",
+      "ivory": "Kość słoniowa"
+    }
+  },
+  "about": {
+    "eyebrow": "Nasza historia",
+    "heroTitle": "Meble na zamówienie,",
+    "heroEmphasis": "nigdy na marne.",
+    "heroText": "LuxMeble zaczęło się w małej krakowskiej pracowni od prostego pomysłu: pozwolić ludziom zaprojektować dokładnie taki mebel, jakiego chcą, a potem zbudować go ręcznie — dopiero gdy jest już ich.",
+    "exploreCollection": "Poznaj kolekcję",
+    "tryConfigurator": "Wypróbuj konfigurator",
+    "stats": {
+      "founded": "Założono w Krakowie",
+      "homes": "Umeblowanych domów",
+      "rating": "Średnia ocena",
+      "countries": "Obsługiwanych krajów UE"
+    },
+    "storyEyebrow": "Dlaczego tak tworzymy",
+    "storyTitle": "Mniej marnotrawstwa. Lepsze wykonanie.",
+    "storyP1": "Meble produkowane masowo zapełniają magazyny, a potem wysypiska. Odwróciliśmy ten model: konfigurujesz mebel w 3D na żywo, i dopiero wtedy nasi rzemieślnicy zaczynają pracę. Efekt to meble idealnie dopasowane do Twojego wnętrza i gustu — przy znacznie mniejszym marnotrawstwie.",
+    "storyP2": "Każde zamówienie można prześledzić od naszego warsztatu po Twoje drzwi, a większość części można zamówić ponownie po latach. Tak powinno wyglądać „na zamówienie”.",
+    "valuesTitle": "Za czym się opowiadamy",
+    "values": {
+      "madeToOrder": { "title": "Na zamówienie", "desc": "Nic nie leży w magazynie. Każdy mebel powstaje dopiero po konfiguracji — Twoja tkanina, wykończenie, rozmiar." },
+      "honestMaterials": { "title": "Uczciwe materiały", "desc": "Suszone komorowo ramy z drewna liściastego, skóra pełnoziarnista i tkaniny tkane w Europie. Mówimy dokładnie, co jest w środku." },
+      "builtToLast": { "title": "Na lata", "desc": "10 lat gwarancji na ramę i części, które zamówisz ponownie po latach. Meble powinny przetrwać trendy." }
+    },
+    "timelineEyebrow": "Nasza droga",
+    "timelineTitle": "Od pracowni do 12 000 domów",
+    "timeline": {
+      "y2019": { "title": "Pracownia w Krakowie", "desc": "Dwóch stolarzy zaczyna budować sofy na zamówienie w małym atelier." },
+      "y2021": { "title": "Konfigurator", "desc": "Uruchamiamy konfigurację 3D na żywo — zaprojektuj mebel, zanim powstanie." },
+      "y2023": { "title": "W całej UE", "desc": "Dostawa z montażem rozszerza się na osiem krajów." },
+      "y2026": { "title": "12 000 domów", "desc": "Wciąż na zamówienie, sztuka po sztuce — teraz w tysiącach domów." }
+    },
+    "teamEyebrow": "Ludzie",
+    "teamTitle": "Twórcy, nie marketingowcy",
+    "team": {
+      "founder": "Założycielka i projekt",
+      "craft": "Szef rzemiosła",
+      "materials": "Kierownik ds. materiałów",
+      "care": "Obsługa klienta"
+    },
+    "ctaTitle": "Stwórz coś swojego.",
+    "ctaText": "Zacznij od dowolnego modelu i dopasuj każdy detal w czasie rzeczywistym.",
+    "ctaButton": "Zacznij konfigurować"
+  }
+}
